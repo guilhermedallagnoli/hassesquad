@@ -1,0 +1,124 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero_background",
+      "description": "Imagem de fundo da seção principal (Hero)",
+      "imageUrl": "https://i.imgur.com/90VjTWY.png",
+      "imageHint": "workout gym"
+    },
+    {
+      "id": "about_progress_1",
+      "description": "Primeira foto da galeria de progresso na seção 'Sobre'",
+      "imageUrl": "https://i.imgur.com/yzmWdQO.png",
+      "imageHint": "fitness progress"
+    },
+    {
+      "id": "about_progress_2",
+      "description": "Segunda foto da galeria de progresso na seção 'Sobre'",
+      "imageUrl": "https://i.imgur.com/a5Mpizg.png",
+      "imageHint": "fitness progress"
+    },
+    {
+      "id": "about_progress_3",
+      "description": "Terceira foto da galeria de progresso na seção 'Sobre'",
+      "imageUrl": "https://i.imgur.com/Hh7yNj4.png",
+      "imageHint": "fitness progress"
+    },
+    {
+      "id": "about_progress_4",
+      "description": "Quarta foto da galeria de progresso na seção 'Sobre'",
+      "imageUrl": "https://i.imgur.com/ygeTtUI.png",
+      "imageHint": "fitness progress"
+    },
+    {
+      "id": "testimonial_kaue_1",
+      "description": "Primeira foto do Kauê Hasse na seção de depoimentos",
+      "imageUrl": "https://i.imgur.com/n6xnnHq.png",
+      "imageHint": "personal trainer"
+    },
+    {
+      "id": "testimonial_kaue_2",
+      "description": "Segunda foto do Kauê Hasse na seção de depoimentos",
+      "imageUrl": "https://i.imgur.com/gc7u4Lz.png",
+      "imageHint": "fitness progress"
+    },
+    {
+      "id": "testimonial_ilana_profile",
+      "description": "Foto de perfil do depoimento de Ilana Ferraz",
+      "imageUrl": "https://i.imgur.com/dkaLV67.jpeg",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial_ilana_whatsapp",
+      "description": "Imagem do depoimento em texto de Ilana Ferraz (print do WhatsApp)",
+      "imageUrl": "https://i.imgur.com/WGItecs.jpeg",
+      "imageHint": "testimonial chat"
+    },
+    {
+      "id": "testimonial_fabricio_profile",
+      "description": "Foto de perfil do depoimento de Fabrício Israel",
+      "imageUrl": "https://i.imgur.com/cOUEPrM.jpeg",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial_fabricio_whatsapp",
+      "description": "Imagem do depoimento em texto de Fabrício Israel (print do WhatsApp)",
+      "imageUrl": "https://i.imgur.com/g5NTPXe.png",
+      "imageHint": "testimonial chat"
+    },
+    {
+      "id": "testimonial_gregory_profile",
+      "description": "Foto de perfil do depoimento de Gregory",
+      "imageUrl": "https://i.imgur.com/qHZEpe3.jpeg",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial_gregory_whatsapp",
+      "description": "Imagem do depoimento em texto de Gregory (print do WhatsApp)",
+      "imageUrl": "https://i.imgur.com/z5ziw4K.png",
+      "imageHint": "testimonial chat"
+    },
+    {
+      "id": "testimonial_gustavo_profile",
+      "description": "Foto de perfil do depoimento de Gustavo Maas",
+      "imageUrl": "https://i.imgur.com/HWMvJLB.jpeg",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial_gustavo_whatsapp",
+      "description": "Imagem do depoimento em texto de Gustavo Maas (print do WhatsApp)",
+      "imageUrl": "https://i.imgur.com/5rDQ5Ss.png",
+      "imageHint": "testimonial chat"
+    },
+    {
+      "id": "testimonial_matheus_t_profile",
+      "description": "Foto de perfil do depoimento de Matheus T.",
+      "imageUrl": "https://i.imgur.com/45fFhAb.jpeg",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial_matheus_t_whatsapp",
+      "description": "Imagem do depoimento em texto de Matheus T. (print do WhatsApp)",
+      "imageUrl": "https://i.imgur.com/2zzVNjw.png",
+      "imageHint": "testimonial chat"
+    },
+    {
+      "id": "testimonial_matheus_d_profile",
+      "description": "Foto de perfil do depoimento de Matheus D.",
+      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIyMjQ5MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial_matheus_d_whatsapp",
+      "description": "Imagem do depoimento em texto de Matheus D. (print do WhatsApp)",
+      "imageUrl": "https://i.imgur.com/VpAEark.png",
+      "imageHint": "testimonial chat"
+    },
+    {
+      "id": "social_instagram",
+      "description": "Ícone da rede social Instagram no rodapé",
+      "imageUrl": "https://i.imgur.com/alpb1bo.png",
+      "imageHint": "instagram logo"
+    }
+  ]
+}
