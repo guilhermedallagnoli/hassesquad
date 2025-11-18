@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useState } from 'react';
 import Link from 'next/link';
@@ -60,8 +60,9 @@ export function Header() {
               <Image
                 src={socialImage.imageUrl}
                 alt={socialImage.description}
-                width={100}
-                height={100}
+                width={24}
+                height={24}
+                className="ml-4"
                 data-ai-hint={socialImage.imageHint}
               />
             </Link>
@@ -79,12 +80,6 @@ export function Header() {
               <div className="p-4">
                 <div className="flex justify-between items-center mb-8">
                   <Logo />
-                  <SheetClose asChild>
-                    <Button variant="ghost" size="icon">
-                      <X className="h-6 w-6" />
-                      <span className="sr-only">Fechar menu</span>
-                    </Button>
-                  </SheetClose>
                 </div>
                 <nav className="flex flex-col space-y-4">
                   {navLinks.map((link) => (
@@ -116,8 +111,8 @@ export function Header() {
                         <Image
                           src={socialImage.imageUrl}
                           alt={socialImage.description}
-                          width={100}
-                          height={100}
+                          width={48}
+                          height={48}
                           data-ai-hint={socialImage.imageHint}
                         />
                       </Link>
