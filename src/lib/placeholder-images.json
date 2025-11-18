@@ -1,3 +1,4 @@
+
 {
   "placeholderImages": [
     {
@@ -43,21 +44,9 @@
       "imageHint": "fitness progress"
     },
     {
-      "id": "testimonial_ilana_profile",
-      "description": "Foto de perfil do depoimento de Ilana Ferraz",
-      "imageUrl": "https://i.imgur.com/dkaLV67.jpeg",
-      "imageHint": "woman portrait"
-    },
-    {
-      "id": "testimonial_ilana_whatsapp",
-      "description": "Imagem do depoimento em texto de Ilana Ferraz (print do WhatsApp)",
-      "imageUrl": "https://i.imgur.com/WGItecs.jpeg",
-      "imageHint": "testimonial chat"
-    },
-    {
       "id": "testimonial_fabricio_profile",
       "description": "Foto de perfil do depoimento de Fabrício Israel",
-      "imageUrl": "https://i.imgur.com/cOUEPrM.jpeg",
+      "imageUrl": "/testimonials/fabricio.jpeg",
       "imageHint": "man portrait"
     },
     {
@@ -69,7 +58,7 @@
     {
       "id": "testimonial_gregory_profile",
       "description": "Foto de perfil do depoimento de Gregory",
-      "imageUrl": "https://i.imgur.com/qHZEpe3.jpeg",
+      "imageUrl": "/testimonials/gregory.jpeg",
       "imageHint": "man portrait"
     },
     {
@@ -81,7 +70,7 @@
     {
       "id": "testimonial_gustavo_profile",
       "description": "Foto de perfil do depoimento de Gustavo Maas",
-      "imageUrl": "https://i.imgur.com/HWMvJLB.jpeg",
+      "imageUrl": "/testimonials/gustavo.jpeg",
       "imageHint": "man portrait"
     },
     {
@@ -91,26 +80,38 @@
       "imageHint": "testimonial chat"
     },
     {
-      "id": "testimonial_matheus_t_profile",
-      "description": "Foto de perfil do depoimento de Matheus T.",
-      "imageUrl": "https://i.imgur.com/45fFhAb.jpeg",
+      "id": "testimonial_matheus_profile",
+      "description": "Foto de perfil do depoimento de Matheus",
+      "imageUrl": "/testimonials/matheus.jpeg",
       "imageHint": "man portrait"
     },
     {
-      "id": "testimonial_matheus_t_whatsapp",
-      "description": "Imagem do depoimento em texto de Matheus T. (print do WhatsApp)",
+      "id": "testimonial_matheus_whatsapp",
+      "description": "Imagem do depoimento em texto de Matheus (print do WhatsApp)",
       "imageUrl": "https://i.imgur.com/2zzVNjw.png",
       "imageHint": "testimonial chat"
     },
     {
-      "id": "testimonial_matheus_d_profile",
-      "description": "Foto de perfil do depoimento de Matheus D.",
-      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIyMjQ5MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "testimonial_lucas_profile",
+      "description": "Foto de perfil do depoimento de Lucas",
+      "imageUrl": "/testimonials/lucas.jpeg",
       "imageHint": "man portrait"
     },
     {
-      "id": "testimonial_matheus_d_whatsapp",
-      "description": "Imagem do depoimento em texto de Matheus D. (print do WhatsApp)",
+      "id": "testimonial_lucas_whatsapp",
+      "description": "Imagem do depoimento em texto de Lucas (print do WhatsApp)",
+      "imageUrl": "https://i.imgur.com/VpAEark.png",
+      "imageHint": "testimonial chat"
+    },
+    {
+      "id": "testimonial_nemersson_profile",
+      "description": "Foto de perfil do depoimento de Nemersson",
+      "imageUrl": "/testimonials/nemersson.jpeg",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial_nemersson_whatsapp",
+      "description": "Imagem do depoimento em texto de Nemersson (print do WhatsApp)",
       "imageUrl": "https://i.imgur.com/VpAEark.png",
       "imageHint": "testimonial chat"
     },

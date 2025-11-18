@@ -60,7 +60,7 @@ export function About() {
             >
               <Button
                 variant="outline"
-                className="bg-transparent hover:bg-white/10 text-white font-thin text-base md:text-lg px-6 py-4 rounded-xl shadow-inner shadow-white/10 hover:shadow-white/20 border-white/50 transition-all duration-300 transform hover:scale-105"
+                className="bg-transparent hover:bg-white/10 text-white font-thin text-base md:text-lg px-6 py-4 rounded-xl hover:shadow-white/20 border-white/50 transition-all duration-300 transform hover:scale-105 shadow-[0_0_20px_hsl(var(--primary))] animate-pulse duration-[3s]"
               >
                 QUERO RESULTADO
               </Button>

@@ -1,5 +1,4 @@
-"use client";
-
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -118,34 +117,24 @@ function TestimonialKaue() {
 
 const testimonials = [
   {
-    name: 'ILANA FERRAZ',
-    profileImageId: 'testimonial_ilana_profile',
-    testimonialImageId: 'testimonial_ilana_whatsapp',
-  },
-  {
     name: 'FABRÍCIO ISRAEL',
-    profileImageId: 'testimonial_fabricio_profile',
-    testimonialImageId: 'testimonial_fabricio_whatsapp',
+    profileImage: '/testimonials/fabricio.jpeg',
+    testimonialImage: '/testimonials/fabricio_conversa.jpeg',
   },
   {
     name: 'GREGORY',
-    profileImageId: 'testimonial_gregory_profile',
-    testimonialImageId: 'testimonial_gregory_whatsapp',
+    profileImage: '/testimonials/gregory.jpeg',
+    testimonialImage: '/testimonials/gregori_conversa.jpeg',
   },
   {
     name: 'GUSTAVO MAAS',
-    profileImageId: 'testimonial_gustavo_profile',
-    testimonialImageId: 'testimonial_gustavo_whatsapp',
+    profileImage: '/testimonials/gustavo.jpeg',
+    testimonialImage: '/testimonials/gustavo_conversa.jpeg',
   },
   {
-    name: 'MATHEUS T.',
-    profileImageId: 'testimonial_matheus_t_profile',
-    testimonialImageId: 'testimonial_matheus_t_whatsapp',
-  },
-  {
-    name: 'MATHEUS D.',
-    profileImageId: 'testimonial_matheus_d_profile',
-    testimonialImageId: 'testimonial_matheus_d_whatsapp',
+    name: 'NEMERSSON',
+    profileImage: '/testimonials/nemersson.jpeg',
+    testimonialImage: '/testimonials/nemerson_conversa.jpeg',
   },
 ];
 
@@ -180,13 +169,6 @@ function TestimonialMain() {
           >
             <CarouselContent>
               {testimonials.map((testimonial, index) => {
-                const profileImg = PlaceHolderImages.find(
-                  (p) => p.id === testimonial.profileImageId
-                );
-                const testimonialImg = PlaceHolderImages.find(
-                  (p) => p.id === testimonial.testimonialImageId
-                );
-
                 return (
                   <CarouselItem key={index} className="flex justify-center">
                     <div className="w-full max-w-lg bg-neutral-800/20 border border-white/10 rounded-3xl p-6 backdrop-blur-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] mx-auto">
@@ -194,30 +176,24 @@ function TestimonialMain() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-3xl"></div>
                         <div className="p-4 bg-black/30 rounded-2xl border border-white/5">
                           <div className="flex items-center gap-4 mb-6">
-                            {profileImg && (
                               <Image
-                                src={profileImg.imageUrl}
-                                alt={profileImg.description}
-                                width={64}
-                                height={64}
+                                src={testimonial.profileImage}
+                                alt={`Foto de perfil do depoimento de ${testimonial.name}`}
+                                width={48}
+                                height={48}
                                 className="rounded-full object-cover border-2 border-white/20"
-                                data-ai-hint={profileImg.imageHint}
                               />
-                            )}
                             <h3 className="text-2xl font-light font-headline">
                               {testimonial.name}
                             </h3>
                           </div>
-                          {testimonialImg && (
                             <Image
-                              src={testimonialImg.imageUrl}
-                              alt={testimonialImg.description}
-                              width={384}
-                              height={266}
+                              src={testimonial.testimonialImage}
+                              alt={`Imagem do depoimento em texto de ${testimonial.name} (print do WhatsApp)`}
+                              width={300}
+                              height={200}
                               className="rounded-lg w-full h-auto"
-                              data-ai-hint={testimonialImg.imageHint}
                             />
-                          )}
                         </div>
                       </div>
                     </div>

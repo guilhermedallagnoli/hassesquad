@@ -13,11 +13,11 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <Hero />
-        <div className="bg-black py-8 flex justify-center items-center">
-          <Logo width={200} height={37} />
-        </div>
-        <About />
         <MarqueeBanner />
+        <About />
+        <div className="bg-black py-8 flex justify-center items-center">
+          <Logo width={150} height={28} />
+        </div>
         <Consultancy />
         <Testimonials />
       </main>
